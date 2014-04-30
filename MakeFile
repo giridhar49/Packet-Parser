@@ -1,0 +1,2 @@
+parse_headers: parse_headers.c 
+	gcc -g -lpcap -o parse_headers parse_headers.c  -I.
